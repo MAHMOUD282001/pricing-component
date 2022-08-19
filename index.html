@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  
+  
+  <div class="content">
+    
+    <div class="title">
+      <h3>Simple, traffic-based pricing</h3>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
+    
+    <div class="inner-content">
+      <div class="head">
+        <p class="page-views">100K Pageviews</p>
+        <p><span class="page-views-value">$16</span>/month</p>
+      </div>
+      
+      <input type="range" min="2" max="10" value="6" step="2" class="slider" id="myRange">
+      
+      <div class="discount">
+        <p>Monthly Billing</p>
+        <label class="switch">
+          <input type="checkbox" class="year-month-active">
+          <span class="slide round"></span>
+        </label>
+        
+        <p class="yearly">Yearly Billing <span>25% discount</span></p>
+        
+      </div>
+      
+      <hr>
+      
+      
+      <div class="trial">
+        <div class="left">
+          <p><img src="./images/icon-check.svg" alt=""> Unlimited websites</p>
+          <p><img src="./images/icon-check.svg" alt=""> 100% data ownership</p>
+          <p><img src="./images/icon-check.svg" alt=""> Email reports</p>
+        </div>
+        
+        <div class="right">
+          <button>Start my trial</button>
+        </div>
+      </div>
+    
+  </div>
+  </div>
+  
+  <script src="./script.js"></script>
+
+<!-- 
+  Simple, traffic-based pricing
+  Sign-up for our 30-day trial. No credit card required. 
+
+  Pageviews
+  $ /month
+
+  Monthly Billing
+  Yearly Billing 25% discount
+
+  Unlimited websites
+  100% data ownership
+  Email reports
+
+  Start my trial
+   -->
+</body>
+</html>
